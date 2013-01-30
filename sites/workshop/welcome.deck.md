@@ -31,9 +31,6 @@ We want the community of software developers to reflect the diversity of our soc
 <!SLIDE bullets>
 # What is Ruby on Rails?
 
-<!SLIDE bullets>
-# 
-
 !SLIDE center
 # Ruby vs. Rails
 
@@ -78,7 +75,7 @@ We want the community of software developers to reflect the diversity of our soc
 <!SLIDE bullets>
 # Goal:
 ### &nbsp;
-### By the end of the day, you will have built and deployed a web application - live on the internet!
+### By the end of the day, you will have built (part of) a message board and have it running on Heroku
 
 <!SLIDE bullets>
 # Don't be shy!
@@ -97,14 +94,12 @@ We want the community of software developers to reflect the diversity of our soc
 <!SLIDE bullets>
 # Materials
 * Slides: <http://curriculum.railsbridge.org/workshop>
-* Suggestotron Curriculum: <http://curriculum.railsbridge.org/>
+* Intermediate Curriculum: <http://curriculum.railsbridge.org/intermediate-rails/>
 
 <!SLIDE bullets>
 # What will you learn today?
-* Ruby
-  * understanding the Ruby programming language
-* Rails
-  * learn tools and patterns for building web apps in Ruby on Rails
+* How to make an app from scratch
+  
   
 ---
 Proceed to next slide deck: [Today's Workshop Info and Schedule](current)
