@@ -1,0 +1,45 @@
+situation "Publishing" do
+  goals do
+    goal "Publish your website to the Internets™"
+  end
+
+  steps do
+
+    step "Register for your free Dropbox account" do
+      message "Visit https://www.dropbox.com/ and choose Signup"
+    end
+
+    step "Install the Dropbox Mac client" do
+      message "This will run all the time and keep your files in sync"
+    end
+
+    step "Copy your website to the Public Dropbox folder" do
+      message "Find your website folder in your file browser (Finder/Explorer)"
+      message "Open the Dropbox folder by clicking on the Dropbox icon in your tray"
+      img :src => "img/dropbox-tray-menu.png"
+      message "Open the *Public* folder"
+      message "Drag your website folder into the *Public* folder"
+    end
+
+    step "Allow it to sync" do
+      message "The Dropbox icon will indicate it is syncing.  It should only take a few seconds"
+    end
+
+    step "Obtain the public link" do
+      message "Navigate into the website folder and right-click on index.html"
+      message "Choose *Copy Public Link*"
+      img :src => "img/dropbox-context-menu.png"
+    end
+
+    step "Browse to this URL" do
+      message "In your browser, paste this link into the top bar"
+      message "You should see your page"
+    end
+
+    step "Share this URL" do
+      message "Anyone in the world can see your page"
+      message "Feel free to tweet or email your link to friends"
+    end
+
+  end
+end
